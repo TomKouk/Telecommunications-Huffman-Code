@@ -37,7 +37,7 @@
  end
 
  apodosh=entropia/true_mesos;
-% ERWTHMA 5 b meros
+%ERWTHMA 5b 
  alphabet = {'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n'
 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z'};
  sourcebhta=importdata('kwords.txt');
@@ -81,7 +81,7 @@ ismember(lower(sourceb(i+1)),alphabet)
 
  apodosh=entropia/true_mesos;
 function [dict,avglen] = mey_huffmandict(sym, prob)
- % Check an einai cell array an oxi to metatrepw
+% Check an einai cell array an oxi to metatrepw
 if ~iscell(sym)
  sym = num2cell(sym);
 end
@@ -122,7 +122,7 @@ dict = finaldict;
 %Dhmiourgoume dedro me metablites n_ary=2 kai variance=max
 function h_tree = create_tree(h_tree, n_ary, variance)
 % Testaroume an to mhkos tou dedrou einai 1 auto shmenei oti iparxei
-1
+%1
 % kombos sto array twn kombwn kai to programma termatizei
 numRemNodes = length(h_tree);
 if( numRemNodes <= 1)
